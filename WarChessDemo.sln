@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{fa153274-a9c4-cd61-ab10-1234385ee906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{401ab2d9-bf3d-51eb-f491-e9e3ce66fae8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{446be94c-0747-21e0-2ebf-9fe6b6bfe3f2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{ca6f3712-0e17-c8ee-1b39-b6328a647c18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{fa153274-a9c4-cd61-ab10-1234385ee906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fa153274-a9c4-cd61-ab10-1234385ee906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401ab2d9-bf3d-51eb-f491-e9e3ce66fae8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401ab2d9-bf3d-51eb-f491-e9e3ce66fae8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446be94c-0747-21e0-2ebf-9fe6b6bfe3f2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446be94c-0747-21e0-2ebf-9fe6b6bfe3f2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ca6f3712-0e17-c8ee-1b39-b6328a647c18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ca6f3712-0e17-c8ee-1b39-b6328a647c18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

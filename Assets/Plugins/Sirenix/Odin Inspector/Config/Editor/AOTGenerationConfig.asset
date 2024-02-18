@@ -1,0 +1,2024 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 0d000000130000000500000009000000ffffffff
+  lastScan: 638373777292109623
+  supportSerializedTypes:
+  - TypeName: Ability, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Ability+AbilityAnimPriority, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Ability+AbilityAnimType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Ability+TriggerOccasion, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AbsorbItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AchievementDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AchievementObserver, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Action`1[[DialogBubble+StopType, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AddChapter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AddGameSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AddItemEventInfo+AddType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AddItemResolveAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AddItemSlotBonus, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AfterDamageCheckAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AfterDamageCheckAbility+TargetItemTypeCondition, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AllCommonLootGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AllCurseGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AllSkillsSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AnyItemConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AssetDataCatalog`1[[KeywordDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AssetPreDataCatalog`2[[CutsceneInfoData, Assembly-CSharp],[Cutscene,
+      Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: AssetPreDataCatalog`2[[EnemyInfoData, Assembly-CSharp],[CharacterAIComponent,
+      Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AddressableAssets.AssetReference, Unity.Addressables
+    IsCustom: 0
+    Emit: 1
+  - TypeName: BattleBonusObject, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: BonusGenerationInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: BoolCheckNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: BootStrapLoadData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: BootStrapLoadData+TargetContext, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Byte, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CastedItemsThisTurn, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CasterSkillStrengthValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContainerOfSoul.TargetRequirement.CastPrepare, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeAllEnchantStack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeAllRuneStack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeBftHealth, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeBftHealth+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeBftMaxHealth, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeBftMaxHealth+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeBouns, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeCoolDown, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeEnchant, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeInfluence, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeInfluence+ChangeType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeItemModifyValue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeItemModifyValue+ModifyValueType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeItemSlot, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeMaxCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeMaxHealth, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeMaxHealth+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeMaxYinYangPower, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeMInfluenceValue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeMInfluenceValue+OpType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangePlayerCoin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangePlayerCrystal, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangePlayerDrawCount, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeResetInitCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeRoomBonusAction+ChangeType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeRune, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeSkillAction+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeSkillCoolDown, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeSkillDurability, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeTempHealth, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChangeTreasureValue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChapterTriggerAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChapterTriggerAbility+ChapterTriggerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterAIComponent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterAIComponent+DiffcultyInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterAIComponent+DiffcultyInfo+SetupType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterAIComponent+DiffcultySetup, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterClass, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef+SkinMastery, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef+SkinMastery+AddItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef+SkinMastery+ReplaceItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef+SkinMastery+SequenceNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef+SkinMastery+SkinMasteryNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef+SkinMastery+UnlockType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CharacterSkinDef+SkinMastery+UpgradeItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckAddToContainer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckAddType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckBattleFinishType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckContainerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckCurrentBattleIsEliteBattle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckCurrentCharacter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckCurrentGameDifficulty, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckCurrentLevel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckDamageCauseOverflow, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckDealType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckEnemyIs, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckFromDeck, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckGameEndSuccess, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckHasTempValue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckHasValue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckInBossBattle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckIsRealResolve, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemAcceptConsstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemAddedAsCost, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemCastedThisTurn, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemInPool, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemInPool+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemNotNull, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemOwnerContainer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemsAcceptConsstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemsAcceptConsstraint+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemSequenceExist, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemSlotIndexInEnd, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemSlotIndexInEnd+CheckType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemTagsContains, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemWithTag, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckItemWithTag+OpType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckLocationType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckLocationType+CheckType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckmItemUpgraded, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckNeighborWith, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckNeighborWith+NeighborType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckOwner, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSameBft, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSameEveObj, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSameItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSameTag, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSkillState, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSkillState+SkillState, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSourceItemDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckSpellIsTriggerCast, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ChecKTurnPhase, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckValue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckValue+CheckType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckWinBattle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckWithItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CheckYinYang, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CloneItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Color, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Color32, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ColorDisplay, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CombineTagGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CommonBonusGenerationInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CommonBonusGenerationInfo+GenerateType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContainerOfSoul.TargetRequirement.ConfirmRequirement, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ConstraintSingleItemSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ConstraintSingleItemSelector+SelectType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ConsumeAcceptConstraintSumCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ConsumeItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ConsumeItemAction+ConsumeType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ConsumeWithType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContainerFixedSlotCountGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContainerIndexSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContentDisplay, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContextCheckNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Contract, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContractDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ConvertItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CoolDowningConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CounterTrigger, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CounterTrigger+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CrystalBonus, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CrystalUpgradeWorldEvent+CrystalUpgradeConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTScriptableObject, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[AchievementDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[CharacterSkinDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[ContractDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[DifficultyInfo, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[EnchantDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[InfluenceDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[ItemDefinition, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[ItemTag, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[Level, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[MatterDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[PlayerCharacterInfo, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[PurchaseDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[RoutineQuestDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[RuneDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[SkillDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[SkillWordDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[TalentDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[UnlockEntryDef, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CTSOAssetCatalog`1[[WorldEvent, Assembly-CSharp]], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Cutscene, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CutsceneInfoData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Damage+ResolveType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DamageAbleItemConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DamageResolveAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DamageValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DamageValueGenerator+ValueType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DealDamage, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DefOfItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DescriptionOnly, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DialogBubble+StopType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DialogueSequence, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DialogueText, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DialogueTrigger, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DialogueTrigger+AnimEventConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DialogueTrigger+TriggerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[AchievementDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[CharacterSkinDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ContractDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[DifficultyInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[EnchantDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[InfluenceDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ItemDefinition,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ItemTag,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[Level,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[MatterDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[PlayerCharacterInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[PurchaseDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[RoutineQuestDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[RuneDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SkillDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[SkillWordDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[TalentDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[UnlockEntryDef,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[WorldEvent,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[QualityLevel, Assembly-CSharp],[UnityEngine.Color,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DifficultyInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DifficultyLevel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DisplaySlotVfx, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DisplayUnit+AnimationMoveInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DrawFromPile, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DrawSpecificItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DurabilityOfSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DG.Tweening.Ease, DOTween
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Effect, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EffectMarkAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EffectMarkAbility+ShowType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EmptyItemSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnchantConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnchantDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnchantDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EndTurnAction+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnemyAnimationType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnemyEscape, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnemyInfoData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EnterBattleEvent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[QualityLevel, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EveDamageItemSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FMODUnity.EventReference, FMODUnity
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EveObjEnchantGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EveValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EveValueGenerator+ValueType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ExileItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FillItemCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FilterNewItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FilterPoolGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FinishBattleAction+FinishType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FinishWorldEventAfterChoice, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ForeachItemLoop, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FromDeck, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameConfigType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEvent+ContainerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEvent+DealType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEvent+EventBFTType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEvent+EventItemType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEvent+EveObjType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEvent+OwnerItemsType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEvent+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEventAchivementObserver, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEventSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEventTriggerAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameEventTriggerAbility+TriggerCondition, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GameTimeInSeconds, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GenerateCharacterPoolItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GenerateItemTag, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GenerateLootItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GetConsumeRequirement, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GetCoolDown, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GetGatherElement, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GlobalConfigManager+PredefinedProfile, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: FMOD.GUID, FMODUnity
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_CrystalFreeze, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_DungeonMap, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_Enchant, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_FortressIntro, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_FortressSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_GoldStore, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_Influence, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_Intro, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_ItemBonusSelect, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_Loot, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_MintageRune, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_OpenSelectSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GuideModule_UpgradeRoom, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HasItemCheckNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Heal, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HealBonus, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HealthValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HintItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: HintText, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: identicalItemConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.Int32, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[QualityLevel, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IfElseCastNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IndexItemOfItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InfluenceDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InfluenceDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InOverflowingIndex, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InstantiateDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InstantiateItemDefItemGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IntentType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IntRange, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IsChapterFinished, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IsGuide, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IsRandomContractGame, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemAttachEnchantDefCount, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemBlackBoard+ValueType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemChapterGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemContainer+ContainerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemCount, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemCounterGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemCurrentSpellIndexGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemDefinition, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemGenerateionInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemGeneration, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemGeneration+ItemBlackBoardValueSetup, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemGeneration+ItemBlackBoardValueSetup+ValueType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemKindGroupGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemMajorTagGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemMaxChapterGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemMaxCounterGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemNowUpgradeAble, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemQualityLevelConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemQualityLevelConstraint+CompareType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemRequirement, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemRequirement+TargetType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemsFilter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemSlotIndexGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemSourceDeckItemSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemSpell, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemSpell+CustomUpgradeDescription, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemsSumCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemsTargetSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemsValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemsValueGenerator+OpType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemTag, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemTagConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemTagGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemTargetSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemUpgraded, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemWithCounterGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ItemWithCounterGenerator+ItemCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: KeywordDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: KeywordDef+DisplayNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Level, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Level+RoomSectionRef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Level+RoomSectionRef[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Ability, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[AchievementDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[BonusGenerationInfo, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CharacterAIComponent+DiffcultySetup,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CharacterClass, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CharacterSkinDef+SkinMastery+SkinMasteryNode,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CharacterSkinDef+SkinMastery, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CharacterSkinDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CheckNode, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ContractDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CTScriptableObject, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[CutsceneInfoData, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DialogueText, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DialogueTrigger, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DifficultyInfo, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Effect, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[EnchantDef, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[EnemyInfoData, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[GameReward, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[GlobalConfigManager+PredefinedProfile,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[GuideModule, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[InfluenceDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemConstraint, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemDefinition, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemGeneration+ItemBlackBoardValueSetup,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemGeneration, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemSpell, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemTag, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemTagGenerator, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemTargetSelector, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ItemWithCounterGenerator+ItemCounter,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[KeywordDef, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Level, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[MaterialPropertyBlockModifier+PropertyBlockData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[MatterDef, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[MintageRune+MintageRuneInfo, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[NewItemGenerator, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[NewItemModifier+BlackBoardModifyValye,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[NodeBasedWorldEvent+WorldEventChoiceSetup,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[PathEvent, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[PlayerCharacterInfo, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[PlayerSelectTextChoiceEffect+PlayerSelectTextChoiceSetup,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ProfileSkill, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[PurchaseDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[RandomNode+RandomSelection, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[RoomInfoData, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[RoutineQuestDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[RuneDef, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[SkillDef, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[SkillWordDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[StoreEvent+QualityPriceInfo, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[TalentDef, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[UnlockEntryDef, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ValueGenerator, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.ValueTuple`2[[EnchantDef,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[VFXDataPreset+IntentTypeDisplayInfo,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[WorldEvent, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: LoopCastNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MapLevelStageCount, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MaterialPropertyBlockModifier+PropertyBlockData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MaterialPropertyBlockModifier+TexturePropertyBlockData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MatterDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MatterReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MaxHealthValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: mCounterValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: mEnchantValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MInfluenceValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MintageRune, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MintageRune+MintageRuneInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MintageRunePanel_Event+MintageRuneRoomConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MItemBlackBoardValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MoveSlot, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MoveSlot+MoveType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MoveSlotToward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: mRuneValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MulAllRuneStack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MultiBonusGenerationInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MultiConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MultiConstraint+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MultiItemGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MultiItemTargetSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MultiplyAllEnchantStack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NewGameConfigData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NewItemGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NewItemModifier, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NewItemModifier+BlackBoardModifyValye, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NewItemSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NodeBasedWorldEvent+WorldEventChoiceSetup, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NodeItemValueMostGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NodeItemValueMostGenerator+SelectType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: NoLinkColorDisplay, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Object, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OnDrawSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OpChecKNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OpChecKNode+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OpConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OpConstraint+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OperateValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OperateValueGenerator+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: OwnerDisplay, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PathEvent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PathLocation+LocationType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerCharacterInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerCharacterRelicSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerCoinGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerCrystalGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerInfluenceCount, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerRandomRelicGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerSelectItemsCountEffect, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerSelectItemsEffect, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerSelectItemsEffect+SelectPanelType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerSelectTextChoiceEffect, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PlayerSelectTextChoiceEffect+PlayerSelectTextChoiceSetup, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PredefinedEnchantGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PredefinedItemDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PredefinedTagGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PredefinedValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PredefineInfluenceDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ProfileSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PurchaseDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PurchaseDef+GetCurrencyMatter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PurchaseDef+GetTokenMatter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PurchaseDef+PurchaseNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: PurchaseDef+UnlockCharacter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: QualityLevel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RandomCheck, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RandomNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RandomNode+RandomSelection, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RandomPoolSelectDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RandomRangeValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RandomTargetSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ReachMaxCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RemoveFromDeck, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoomInfoData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoomRef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoomRef[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoomReferenceCatalog, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+DealXDamage, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+FinishGameWithRandomCharacter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+GetXCoin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+GetXCrystal, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+GetXInfluence, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+KillXEnemy, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+MintageXRunes, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+RoutineQuestNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+UseRandomSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RoutineQuestDef+UseXTagCard, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RuneConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RuneDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RuneDef+AttachGenerationInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SelectedItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContainerOfSoul.TargetRequirement.SelectItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ContainerOfSoul.TargetRequirement.SelectItemsCount, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SelectRandomInstantiateGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SelectRemoveInfluence, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SequenceChangeAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SequenceSpells, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetChapter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetCoolDown, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetEndTurn, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetHealth, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetMaxCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetPlayerCoin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetPlayerCrystal, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetResolveInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetResolveInfo+SetType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetSkipNextTurn, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetTempBool, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetTempItemDefinitions, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetTempItemDefinitions+Op, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetTempItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetTempValue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SetTempValue+Operator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ShuffleContainer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SideItemsSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SideItemsSelector+IterType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SingleTargetSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SkillDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SkillDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SkillPreset, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SkillReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SkillSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SkillSpell, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SkillWordDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SpawnItems, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SpawnItems+InsertType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SpellConsumCostSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SpellConsumeCountGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Sprite, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: StayAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: StoreEvent+QualityPriceInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: StoreEvent+StoreConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SubAppendText, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SummonCompanion, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SummonKeyword, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SwapItemIndex, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SwapItemRunes, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SwapRandomIntent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SwapWithTarget, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+ActivatePotential, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+AddInitCoin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+AddInitCrystal, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+AddInitHealth, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+AddInitInfluence, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+TalentNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+UnlockSkin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TalentDef+UnlockSkinMastery, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TargetCoolDownValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TempItemDefGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TempItemDefOfItemsGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TempItemTargetSelector, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TempTagGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TempValue+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TempValueCheckNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TempValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.TextAsset, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TextmeshproEffect+Config, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Texture, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TransferItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TransferItem+InsertType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TransferTargetCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TreasureKeyword, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TriggerChapter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TriggerDialog, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TriggerDialog+TriggerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TriggerDungeonEvent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TriggerEnemyAnimation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TriggerTargetSpell, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TriggerTargetSpell+TargetingType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TrigramsManager+DurationType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TrigramsManager+YinYangStateType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TrigramsManager+YinYangType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TurnCountGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TurnDamageValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TurnDamageValueGenerator+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TurnPhase, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TurnTriggerAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TurnTriggerAbility+OwnerTriggerType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TurnTriggerAbility+TurnType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Type, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TypeItemConstraint, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockEntryDef, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockEntryDef+CTSOUnlockNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockEntryDef+SetGlobalVariableNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockEntryDef+UnlockEntryNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockOnAddSkillWord, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockOnGetCharacter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockOnGetSkin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockOnReachCharacterMaxLevel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockOnReachGlobalMaxLevel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnlockOnStrengthenCharacter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UpgradeItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UpgradeLevelGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UpgradeRoomEvent+UpgradeRoomConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ValueCompareCheckNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ValueCompareCheckNode+CompareType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ValueDisplay, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.ValueTuple`2[[EnchantDef, Assembly-CSharp],[System.Int32, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VFXConfigInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VFXDataPreset+CastVFXOccasion, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VFXDataPreset+EffectVFXType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VFXDataPreset+IntentTypeDisplayInfo, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VFXSetup, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VFXSetup+BFTPivotType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WaitNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithEnchant, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithMaxCounter, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithNodeAddTagItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithSpell, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithSpellType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithStackedRune, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithTagCountValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WithTypeNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WordAttachingSkill, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WorldEvent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WorldEvent+WorldEventChoiceText, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: YinYangFeatureAbility, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: YinYangFeatureAbility+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: YinYangPowerValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: YinYangSpecialValueGenerator, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: YinYangSpecialValueGenerator+Type, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
